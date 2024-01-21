@@ -1,4 +1,10 @@
-#
+#!/bin/zsh
+
+# ███ ███ ███ ███ █   █ ███ ███
+# █    █   █   █  ██  █  █   █
+# █    █   █   █  █ █ █  █   █
+# █ █  █   █   █  █  ██  █   █
+# ███ ███  █  ███ █   █ ███  █``
 
 gitinit() {
   # Helper function to normalize responses
@@ -15,9 +21,18 @@ gitinit() {
   normalized_init_response=$(normalize_response "$init_response")
   [ "$normalized_init_response" = "yes" ] && git init
 
-  # Prompt for the name of the repo and create a README file
-  vared -p "Enter the name of the repo: " -c repo_name
-  echo "# $repo_name" > README.md
+  # Prompt to add a README file
+  vared -p "Do you want to add a README file? (y/n): " -c readme_response
+  normalized_readme_response=$(normalize_response "$readme_response")
+  
+  if [ "$normalized_readme_response" = "yes" ]; then
+    # Prompt for the name of the repo
+    vared -p "Enter the name of the repo: " -c repo_name
+  
+    # Create a README file with the repo name
+    echo "# $repo_name" > README.md
+    echo "README.md created with the repo name: $repo_name"
+  fi
 
   # Prompt to add all files
   vared -p "Do you want to add all files? (yes/no): " -c add_response
