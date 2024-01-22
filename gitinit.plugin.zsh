@@ -6,6 +6,9 @@
 # █ █  █   █   █  █  ██  █   █
 # ███ ███  █  ███ █   █ ███  █``
 
+# -------------------------------------------------------
+# Function to initialize a Git repository with additional options
+# -------------------------------------------------------
 gitinit() {
   # Helper function to normalize responses
   normalize_response() {
@@ -22,7 +25,7 @@ gitinit() {
   [ "$normalized_init_response" = "yes" ] && git init
 
   # Prompt to add a README file
-  vared -p "Do you want to add a README file? (y/n): " -c readme_response
+  vared -p "Do you want to add a README file? (yes/no): " -c readme_response
   normalized_readme_response=$(normalize_response "$readme_response")
   
   if [ "$normalized_readme_response" = "yes" ]; then
