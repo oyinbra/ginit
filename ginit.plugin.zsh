@@ -1,16 +1,16 @@
 #!/bin/zsh
 
-# ███ ███ ███ ███ █   █ ███ ███
-# █    █   █   █  ██  █  █   █
-# █    █   █   █  █ █ █  █   █
-# █ █  █   █   █  █  ██  █   █
-# ███ ███  █  ███ █   █ ███  █``
+# ███ ███ █   █ ███ ███
+# █    █  ██  █  █   █
+# █    █  █ █ █  █   █
+# █ █  █  █  ██  █   █
+# ███ ███ █   █ ███  █
 
 # -------------------------------------------------------
 # Function to initialize a Git repository with additional options
 # -------------------------------------------------------
 
-gitinit() {
+ginit() {
   # Helper function to normalize responses
   normalize_response() {
     case "$1" in
