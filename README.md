@@ -4,10 +4,11 @@
 The `ginit` function in this plugin allows you to initialize a Git repository with extra features and prompts.
 
 ## Features
-- Check if the directory is already a Git repository.
+- Check if the directory is already a Git repository then proceeds to initilize a git repo if it isn't one.
 - Prompt to add all files.
 - Prompt for the commit message.
-- Prompt to rename the branch.
+- Prompt to name the branch.
+- Prompt to enter remote link
 - Prompt to push to the remote repository.
 
 ## Usage
