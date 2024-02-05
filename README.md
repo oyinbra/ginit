@@ -1,26 +1,38 @@
-# Custom Zsh Git Initialization Plugin
+# Custom Zsh Git Initialization Plugin 🚀
 
-## Overview
-The `ginit` function in this plugin allows you to initialize a Git repository with extra features and prompts.
+## Overview 📖
+The `ginit` function in this plugin empowers you to initialize a Git repository with extra features and interactive prompts.
 
-## Features
-- Check if the directory is already a Git repository then proceeds to initilize a git repo if it isn't one.
+## Features 🌟
+- Check if the directory is already a Git repository, then proceeds to initialize a Git repo if it isn't one.
 - Prompt to add all files.
 - Prompt for the commit message.
 - Prompt to name the branch.
-- Prompt to enter remote link
+- Prompt to enter the remote link.
 - Prompt to push to the remote repository.
 
-## Usage
+## Getting Started 🛠️
 
-1. Clone the repository or add it with your plugin manager:
+### Installation using oh-my-zsh 🔧
+Clone this repository into oh-my-zsh's plugins directory:
 
-   ```bash
-   git clone https://github.com/your-username/ginit-plugin-zsh.git
+```bash
+git clone https://github.com/oyinbra/ginit ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ginit
+```
 
-2. Source the ginit.plugin.zsh file in your .zshrc:
-   ```bash
-    source /path/to/ginit.plugin.zsh
-3. Run the ginit function in your terminal and follow the prompt:
-    ```bash
-      ginit
+Activate the plugin in ~/.zshrc:
+```zsh
+plugins=( [plugins...] ginit)
+```
+
+Run exec zsh to apply the changes:
+```bash
+exec zsh
+```
+
+## Usage 🚀
+Run the ginit function in your terminal and follow the prompts:
+```bash
+ginit
+```
+Then follow the prompt
