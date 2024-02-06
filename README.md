@@ -30,6 +30,27 @@ Run exec zsh to apply the changes:
 exec zsh
 ```
 
+### Installation using zplug 🔧
+
+Using Zplug:
+Add the following line to your `~/.zshrc` file:
+
+```zsh
+zplug "oyinbra/ginit", as:plugin
+```
+
+Then run:
+
+```bash
+zplug install
+```
+
+And finally, add `ginit` to your list of plugins:
+
+```zsh
+zplug "oyinbra/ginit", as:plugin
+```
+
 ## Usage 🚀
 Run the ginit function in your terminal and follow the prompts:
 ```bash
