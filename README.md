@@ -45,14 +45,22 @@ Then run:
 zplug install
 ```
 
-And finally, add `ginit` to your list of plugins:
+### Installation using zap 🔧
+
+Using Zap:
+Add the following line to your `~/.zshrc` file:
 
 ```zsh
-zplug "oyinbra/ginit", as:plugin
+plug "oyinbra/ginit"
 ```
 
+Then run:
+
+```bash
+zap update plugins
+```
 ## Usage 🚀
-Run the ginit function in your terminal and follow the prompts:
+Run the `ginit` function in your terminal and follow the prompts:
 ```bash
 ginit
 ```
