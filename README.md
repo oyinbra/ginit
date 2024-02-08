@@ -38,6 +38,10 @@ Add the following line to your `~/.zshrc` file:
 ```zsh
 zplug "oyinbra/ginit", as:plugin
 ```
+Run exec zsh to apply the changes:
+```bash
+exec zsh
+```
 
 Then run:
 
@@ -52,6 +56,10 @@ Add the following line to your `~/.zshrc` file:
 
 ```zsh
 plug "oyinbra/ginit"
+```
+Run exec zsh to apply the changes:
+```bash
+exec zsh
 ```
 
 Then run:
