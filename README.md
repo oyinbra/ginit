@@ -7,6 +7,7 @@
     }
   </style>
   
+  <!-- Open Source -->
   [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103&style=for-the-badge)](https://github.com/ellerbrock/open-source-badge/)
   [![MIT License](https://badges.frapsoft.com/os/mit/mit.svg?v=103&style=for-the-badge)](https://opensource.org/licenses/mit-license.php)
   [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) 
