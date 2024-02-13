@@ -1,8 +1,8 @@
 <!-- BADGE START -->
-<div align="center">
+<div class="badges-container" align="center">
   <style>
-    /* Increase the size of all badges */
-    img {
+    /* Increase the size of badge images */
+    .badges-container img {
       height: 30px; /* Adjust the height as needed */
     }
   </style>
@@ -19,7 +19,6 @@
   [![Repository Size](https://img.shields.io/github/repo-size/Oyinbra/nvim-config?svg?v=103&style=for-the-badge)](#)
 </div>
 <!-- BADGE END -->
-
 
 # Git Initialization Plugin 🚀
 
